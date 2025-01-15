@@ -34,7 +34,7 @@ const NavBar = () => {
             <div className="mx-auto hidden max-w-[700px]  items-center justify-center rounded-lg border border-stone-50/30 bg-black/20 py-3 backdrop-blur-lg lg:flex">
                 <div className="flex justify-between items-center gap-6">
                     <div>
-                        <a href="">
+                        <a href="/">
                             <img src={logo} alt="logo"  className="w-28 h-10 object-fill" />
                         </a>
                     </div>

@@ -9,8 +9,8 @@ import {
 
 import projectImage1 from "../assets/Project-1.jpeg";
 import projectImage2 from "../assets/Project-2.jpeg";
-import projectImage3 from "../assets/project3.jpeg";
-import projectImage4 from "../assets/project4.jpeg";
+import projectImage3 from "../assets/project-3.jpg";
+import projectImage4 from "../assets/project-4.png";
 import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";
 
