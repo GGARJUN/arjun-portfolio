@@ -7,12 +7,12 @@ import {
   FaInstagram,
 } from "react-icons/fa6";
 
-import projectImage1 from "../assets/Project-1.jpeg";
-import projectImage2 from "../assets/Project-2.jpeg";
-import projectImage3 from "../assets/project-3.jpg";
+import projectImage1 from "../assets/project-1.png";
+import projectImage2 from "../assets/project-2.png";
+import projectImage3 from "../assets/project-3.png";
 import projectImage4 from "../assets/project-4.png";
-import projectImage5 from "../assets/project5.jpeg";
-import projectImage6 from "../assets/project6.jpeg";
+import projectImage5 from "../assets/project-3.png";
+import projectImage6 from "../assets/project-1.png";
 
 import C1 from "../assets/C1.png";
 import C2 from "../assets/C2.png";
@@ -29,6 +29,7 @@ import { SiMongodb } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
+
 
 export const NAVIGATION_LINKS = [
   { label: "Bio", href: "#bio" },
@@ -57,11 +58,11 @@ export const HERO = {
 export const PROJECTS = [
   {
     id: 1,
-    name: "Personal Portfolio",
+    name: "Meeting Scheduler Web App",
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/user/personal-portfolio",
+    githubLink: "https://meeting-schedule-tan.vercel.app/",
   },
   {
     id: 2,
@@ -106,11 +107,29 @@ export const PROJECTS = [
 ];
 
 export const BIO = [
-  "My name is Arjun G.G, and I am an aspiring web developer with a Bachelor of Technology in Information Technology from Ultra College of Engineering and Technology in Madurai. I have a CGPA of 7.85, which reflects my dedication and hard work throughout my academic career. I also hold a Diploma in Mechanical Engineering from NPR Polytechnic College, which has given me a solid foundation in technical principles and problem-solving skills.",
-  "During my academic journey, I have actively engaged in personal projects that have allowed me to apply my theoretical knowledge in practical settings. One of my notable projects is developing a deep learning model for detecting diseases in tea leaves using Python, Flask, and TensorFlow. Additionally, I created a Meeting Schedule web application using Next.js, Firebase, JavaScript, and TailwindCSS, showcasing my ability to build functional and user-friendly web applications.",
-  "I am proficient in various technical skills, including HTML, CSS, JavaScript, ReactJs, NextJs, and TailwindCSS. I am also familiar with tools and databases like Node.js, VScode, Git, GitHub, MongoDB, Firebase, and PostgreSQL. I am particularly interested in web development and front-end development, and I am always eager to learn new technologies and improve my skills. I believe my strong technical background, combined with my problem-solving abilities and adaptability, make me a strong candidate for this position.",
-
-
+  {
+    image : "https://paradoxz.in/wp-content/uploads/2024/11/1.png",
+    title : "Who is a developer?",
+    decs : "You'll learn what a web developer does, from coding to designing websites. We'll also dive into the different roles within web development, helping you decide which path suits you best."
+  },
+  {
+    image : "https://paradoxz.in/wp-content/uploads/2024/11/2.png",
+    title : "What Are Companies Doing?",
+    decs : "Discover how real businesses approach web development, from planning to execution. You’ll understand the tools and techniques they use to build and maintain websites in the real world."
+  },
+  {
+    image : "https://paradoxz.in/wp-content/uploads/2024/11/4.png",
+    title : "Build Your Website Locally",
+    decs : "Understand the process of building and testing your website on your computer before going live. This hands-on experience will teach you how to develop locally and troubleshoot issues effectively."
+  },
+  {
+    image : "https://paradoxz.in/wp-content/uploads/2024/11/6.png",
+    title : "Careers & Opportunities",
+    decs : "Explore the career opportunities available to web developers, whether you’re interested in full-time roles, freelancing, or building your own business. You’ll also get advice on how to stand out in the competitive tech industry."
+  },
+  // "My name is Arjun G.G, and I am an aspiring web developer with a Bachelor of Technology in Information Technology from Ultra College of Engineering and Technology in Madurai. I have a CGPA of 7.85, which reflects my dedication and hard work throughout my academic career. I also hold a Diploma in Mechanical Engineering from NPR Polytechnic College, which has given me a solid foundation in technical principles and problem-solving skills.",
+  // "During my academic journey, I have actively engaged in personal projects that have allowed me to apply my theoretical knowledge in practical settings. One of my notable projects is developing a deep learning model for detecting diseases in tea leaves using Python, Flask, and TensorFlow. Additionally, I created a Meeting Schedule web application using Next.js, Firebase, JavaScript, and TailwindCSS, showcasing my ability to build functional and user-friendly web applications.",
+  // "I am proficient in various technical skills, including HTML, CSS, JavaScript, ReactJs, NextJs, and TailwindCSS. I am also familiar with tools and databases like Node.js, VScode, Git, GitHub, MongoDB, Firebase, and PostgreSQL. I am particularly interested in web development and front-end development, and I am always eager to learn new technologies and improve my skills. I believe my strong technical background, combined with my problem-solving abilities and adaptability, make me a strong candidate for this position.",
 ];
 
 export const SKILLS = [
@@ -199,13 +218,6 @@ export const EDUCATION = [
     duration: "June 2017 - june 2018",
     description:
       "Completing +2 Higher Secondary School with a focus on Computer Science equips students with foundational knowledge and skills in computing, programming, and information technology. This specialization prepares students for higher education in computer science and related fields or for entry-level positions in the IT industry.",
-  },
-  {
-    degree: "10th SSLC",
-    institution: "Balamandiram Higher Secondary School",
-    duration: "June 2015 - June 2016",
-    description:
-      "The 10th Standard Secondary School Leaving Certificate (SSLC) is a crucial milestone in a student's educational journey, typically marking the completion of secondary education. The SSLC is pivotal as it sets the foundation for higher secondary education and various career paths",
   },
 ];
 
