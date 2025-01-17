@@ -40,7 +40,7 @@ const Hero = () => {
             className="rounded-3xl md:ml-20  z-10"
           />
           <div className="h-80 w-80 rounded-full bg-blue-500 absolute top-0 blur-2xl "></div>
-          <div className="h-[300px] w-[300px] bg-gradient-to-t from-blue-700 to-pink-700 rounded-full absolute top-0 left-0 blur-3xl animated "></div>
+          <div className="h-[300px] w-[300px] bg-gradient-to-t overflow-hidden from-blue-700 to-pink-700 rounded-full absolute top-0 left-0 blur-3xl animated "></div>
         </div>
       </motion.div>
     </section>

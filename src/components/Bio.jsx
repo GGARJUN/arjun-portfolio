@@ -13,7 +13,7 @@ const Bio = () => {
         transition={{ duration: 0.8 }}
         className="text-center text-3xl lg:text-4xl"
       >
-        Bio
+        Process Section
       </motion.h2>
       <motion.div
         initial={{ opacity: 0 }}
@@ -38,10 +38,9 @@ const Bio = () => {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 1 }}
-                src={arjunImg} alt="" className="object-cover w-[300px]  md:ml-0 ml-10  md:mr-24 " />
-              <div className="h-80 w-80 rounded-full bg-blue-500 absolute top-0 blur-2xl -z-50"></div>
-              <div className="h-[300px] w-[300px] bg-gradient-to-t from-blue-700 to-pink-700 rounded-full absolute top-0 left-0 blur-3xl animated -z-10"></div>
-              <img src={arjunD} alt="" className="absolute md:-left-14 -left-3 -bottom-12  " />
+                src={arjunImg} alt="" className="object-cover w-[200px]    md:ml-0 ml-20   md:mr-24 " />
+
+              <img src={arjunD} alt="" className="absolute md:-left-6 left-14 md:-bottom-12 -bottom-10   w-60 h-20 " />
             </motion.div>
 
 
@@ -59,7 +58,7 @@ const Bio = () => {
                   
                 </motion.div>
               ))}
-                      <div className="h-[300px] w-[300px] bg-gradient-to-t from-blue-700 to-pink-700 rounded-full absolute top-0 left-0 blur-3xl animated -z-10"></div>
+                      <div className="h-[300px] w-[300px] bg-gradient-to-t from-blue-700 to-pink-700 rounded-full absolute top-0 left-0 blur-3xl animated -z-10 overflow-hidden"></div>
 
 
             </div>

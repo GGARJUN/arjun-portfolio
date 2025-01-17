@@ -300,7 +300,7 @@ const Projects = () => {
                   translateZ="60"
                   className=" text-sm max-w-sm mt-2 text-neutral-300"
                 >
-                  Hover over this card to unleash the power of CSS perspective.Hover over this card to unleash the power of CSSHover over this card to unleash the power of CSS perspectiveperspective
+                  {project.description}
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-4">
                   <img
@@ -373,7 +373,6 @@ const Projects = () => {
             {/* </motion.div>  */}
           </motion.div>
         ))}
-           <div className="h-[500px] w-[500px] bg-gradient-to-t from-blue-700 to-pink-700 rounded-full absolute top-0 left-0 blur-3xl animated -z-10"></div>
       </div>
     </section>
   );

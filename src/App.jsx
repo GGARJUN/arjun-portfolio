@@ -1,5 +1,5 @@
 import Bio from "./components/Bio";
-import Certification from "./components/Certification";
+// import Certification from "./components/Certification";
 import ContactForm from "./components/ContactForm";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
@@ -15,10 +15,6 @@ function App() {
     <>
       <div className="relative h-full overflow-y-auto antialiased">
         <div className="fixed inset-0 h-screen bg-fixed bg-center bg-cover bg-img ">
-          {/* <Meteors number={30} className="h-screen" />
-          <div className="relative top-[50%]">
-            <Meteors number={30} className="relative " />
-          </div> */}
           <div className="relative w-full h-full ">
             <Particles
               className="absolute inset-0"
@@ -42,7 +38,7 @@ function App() {
           <Projects />
           <WorkExperience />
           <Skills />
-          <Certification/>
+          {/* <Certification/> */}
           <ContactForm />
           <Footer />
         </div>

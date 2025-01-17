@@ -11,8 +11,8 @@ import projectImage1 from "../assets/project-1.png";
 import projectImage2 from "../assets/project-2.png";
 import projectImage3 from "../assets/project-3.png";
 import projectImage4 from "../assets/project-4.png";
-import projectImage5 from "../assets/project-3.png";
-import projectImage6 from "../assets/project-1.png";
+import projectImage5 from "../assets/project-5.png";
+import projectImage6 from "../assets/project-6.png";
 
 import C1 from "../assets/C1.png";
 import C2 from "../assets/C2.png";
@@ -29,6 +29,7 @@ import { SiMongodb } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
+import { FaWordpress } from "react-icons/fa";
 
 
 export const NAVIGATION_LINKS = [
@@ -37,7 +38,7 @@ export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
   { label: "Work Experience", href: "#work" },
   { label: "Skills", href: "#skills" },
-  { label: "Certification", href: "#Certification" },
+  // { label: "Certification", href: "#Certification" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -60,49 +61,50 @@ export const PROJECTS = [
     id: 1,
     name: "Meeting Scheduler Web App",
     description:
-      "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
+      "Meeting Scheduler App with authentication, scheduling, email alerts, availability settings, and dashboard. Built using React, Node.js, and deployed on Vercel/AWS.",
     image: projectImage1,
     githubLink: "https://meeting-schedule-tan.vercel.app/",
   },
   {
     id: 2,
-    name: "E-Commerce Platform",
+    name: "E-Commerce Website",
     description:
-      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
-    image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
+      "E-Commerce website for basketball enthusiasts offering gear, apparel, and accessories. Features include secure checkout, product filters, and a responsive design.",
+    image: projectImage3,
+    githubLink: "https://learnandexplore.free.nf/",
   },
   {
     id: 3,
-    name: "Task Management Tool",
+    name: "CareerGaidence AI Navigation",
     description:
-      "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
-    image: projectImage3,
-    githubLink: "https://github.com/user/task-management-tool",
+      "CareerGuidance AI - Your smart assistant for navigating career paths, offering personalized advice, skill recommendations, and job opportunities tailored to you.",
+    image: projectImage2,
+    githubLink: "https://career-website-ten.vercel.app/",
   },
   {
     id: 4,
-    name: "Weather App",
+    name: "Chat Excel OpenAI",
     description:
-      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
-    image: projectImage4,
-    githubLink: "https://github.com/user/weather-app",
+      "ChatExcel powered by OpenAI - An intelligent tool for seamless Excel assistance, offering formula guidance, data analysis, and task automation with AI-driven insights.",
+    image: projectImage5,
+    githubLink: "https://chat-excel-file.vercel.app/",
   },
   {
     id: 5,
-    name: "Blog Platform",
+    name: "Product Review Web Application",
     description:
-      "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
-    image: projectImage5,
-    githubLink: "https://github.com/user/blog-platform",
+      "Product Review Web App - A platform to browse, submit, and analyze product reviews with user ratings, advanced filters, and AI-powered sentiment analysis for better decision-making.",
+    image: projectImage4,
+    githubLink: "https://car-style.great-site.net/",
   },
+
   {
     id: 6,
-    name: "Chat Application",
+    name: "Home Service Web App",
     description:
-      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
+      "Home Service Web App - Connects users with trusted professionals for services like cleaning, plumbing, and repairs. Features include booking, real-time tracking, and secure payments.",
     image: projectImage6,
-    githubLink: "https://github.com/user/chat-application",
+    githubLink: "https://home-service-app-web.vercel.app/",
   },
 ];
 
@@ -169,8 +171,8 @@ export const SKILLS = [
     experience: "0.5+ years",
   },
   {
-    icon: <BiLogoPostgresql className="text-4xl text-sky-700 lg:text-5xl" />,
-    name: "PostgreSQL",
+    icon: <FaWordpress  className="text-4xl text-blue-300 lg:text-5xl" />,
+    name: "WordPress",
     experience: "+ year",
   },
   {
