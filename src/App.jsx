@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
+import ScrollToTop from "./components/ScrollToTop";
 import Skills from "./components/Skills";
 import WorkExperience from "./components/WorkExperience";
 import Particles from "@/components/magicui/particles";
@@ -41,6 +42,7 @@ function App() {
           {/* <Certification/> */}
           <ContactForm />
           <Footer />
+          <ScrollToTop />
         </div>
       </div>
     </>
