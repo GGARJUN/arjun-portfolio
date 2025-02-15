@@ -109,29 +109,29 @@ export const PROJECTS = [
 ];
 
 export const BIO = [
-  {
-    image : "https://paradoxz.in/wp-content/uploads/2024/11/1.png",
-    title : "Who is a developer?",
-    decs : "You'll learn what a web developer does, from coding to designing websites. We'll also dive into the different roles within web development, helping you decide which path suits you best."
-  },
-  {
-    image : "https://paradoxz.in/wp-content/uploads/2024/11/2.png",
-    title : "What Are Companies Doing?",
-    decs : "Discover how real businesses approach web development, from planning to execution. You’ll understand the tools and techniques they use to build and maintain websites in the real world."
-  },
-  {
-    image : "https://paradoxz.in/wp-content/uploads/2024/11/4.png",
-    title : "Build Your Website Locally",
-    decs : "Understand the process of building and testing your website on your computer before going live. This hands-on experience will teach you how to develop locally and troubleshoot issues effectively."
-  },
-  {
-    image : "https://paradoxz.in/wp-content/uploads/2024/11/6.png",
-    title : "Careers & Opportunities",
-    decs : "Explore the career opportunities available to web developers, whether you’re interested in full-time roles, freelancing, or building your own business. You’ll also get advice on how to stand out in the competitive tech industry."
-  },
-  // "My name is Arjun G.G, and I am an aspiring web developer with a Bachelor of Technology in Information Technology from Ultra College of Engineering and Technology in Madurai. I have a CGPA of 7.85, which reflects my dedication and hard work throughout my academic career. I also hold a Diploma in Mechanical Engineering from NPR Polytechnic College, which has given me a solid foundation in technical principles and problem-solving skills.",
-  // "During my academic journey, I have actively engaged in personal projects that have allowed me to apply my theoretical knowledge in practical settings. One of my notable projects is developing a deep learning model for detecting diseases in tea leaves using Python, Flask, and TensorFlow. Additionally, I created a Meeting Schedule web application using Next.js, Firebase, JavaScript, and TailwindCSS, showcasing my ability to build functional and user-friendly web applications.",
-  // "I am proficient in various technical skills, including HTML, CSS, JavaScript, ReactJs, NextJs, and TailwindCSS. I am also familiar with tools and databases like Node.js, VScode, Git, GitHub, MongoDB, Firebase, and PostgreSQL. I am particularly interested in web development and front-end development, and I am always eager to learn new technologies and improve my skills. I believe my strong technical background, combined with my problem-solving abilities and adaptability, make me a strong candidate for this position.",
+  // {
+  //   image : "https://paradoxz.in/wp-content/uploads/2024/11/1.png",
+  //   title : "Who is a developer?",
+  //   decs : "You'll learn what a web developer does, from coding to designing websites. We'll also dive into the different roles within web development, helping you decide which path suits you best."
+  // },
+  // {
+  //   image : "https://paradoxz.in/wp-content/uploads/2024/11/2.png",
+  //   title : "What Are Companies Doing?",
+  //   decs : "Discover how real businesses approach web development, from planning to execution. You’ll understand the tools and techniques they use to build and maintain websites in the real world."
+  // },
+  // {
+  //   image : "https://paradoxz.in/wp-content/uploads/2024/11/4.png",
+  //   title : "Build Your Website Locally",
+  //   decs : "Understand the process of building and testing your website on your computer before going live. This hands-on experience will teach you how to develop locally and troubleshoot issues effectively."
+  // },
+  // {
+  //   image : "https://paradoxz.in/wp-content/uploads/2024/11/6.png",
+  //   title : "Careers & Opportunities",
+  //   decs : "Explore the career opportunities available to web developers, whether you’re interested in full-time roles, freelancing, or building your own business. You’ll also get advice on how to stand out in the competitive tech industry."
+  // },
+  "My name is Arjun G.G, and I am an aspiring web developer with a Bachelor of Technology in Information Technology from Ultra College of Engineering and Technology in Madurai. I have a CGPA of 7.85, which reflects my dedication and hard work throughout my academic career. I also hold a Diploma in Mechanical Engineering from NPR Polytechnic College, which has given me a solid foundation in technical principles and problem-solving skills.",
+  "During my academic journey, I have actively engaged in personal projects that have allowed me to apply my theoretical knowledge in practical settings. One of my notable projects is developing a deep learning model for detecting diseases in tea leaves using Python, Flask, and TensorFlow. Additionally, I created a Meeting Schedule web application using Next.js, Firebase, JavaScript, and TailwindCSS, showcasing my ability to build functional and user-friendly web applications.",
+  "I am proficient in various technical skills, including HTML, CSS, JavaScript, ReactJs, NextJs, and TailwindCSS. I am also familiar with tools and databases like Node.js, VScode, Git, GitHub, MongoDB, Firebase, and PostgreSQL. I am particularly interested in web development and front-end development, and I am always eager to learn new technologies and improve my skills. I believe my strong technical background, combined with my problem-solving abilities and adaptability, make me a strong candidate for this position.",
 ];
 
 export const SKILLS = [

@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 import ScrollToTop from "./components/ScrollToTop";
 import Skills from "./components/Skills";
+// import SideBarAds from "./components/SideBarAds";
 import WorkExperience from "./components/WorkExperience";
 import Particles from "@/components/magicui/particles";
 
@@ -39,6 +40,7 @@ function App() {
           <Projects />
           <WorkExperience />
           <Skills />
+          {/* <SideBarAds /> */}
           {/* <Certification/> */}
           <ContactForm />
           <Footer />
